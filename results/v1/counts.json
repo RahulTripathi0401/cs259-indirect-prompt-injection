@@ -1,0 +1,607 @@
+{
+ "index_docs": 1892968130,
+ "queries": {
+  "B": {
+   "hits": 102396,
+   "seconds": 11.52
+  },
+  "S": {
+   "hits": 1056299,
+   "seconds": 26.42
+  },
+  "S_not_B": {
+   "hits": 953903,
+   "seconds": 9.99
+  },
+  "B_not_S": {
+   "hits": 0,
+   "seconds": 8.32
+  },
+  "override": {
+   "hits": 912140,
+   "seconds": 2.22
+  },
+  "override_not_B": {
+   "hits": 898693,
+   "seconds": 2.72
+  },
+  "address": {
+   "hits": 145802,
+   "seconds": 6.09
+  },
+  "address_not_B": {
+   "hits": 56066,
+   "seconds": 7.46
+  }
+ },
+ "baseline_phrases": [
+  "ignore previous instructions",
+  "ignore all previous instructions",
+  "disregard previous instructions",
+  "disregard all previous instructions",
+  "ignore prior instructions",
+  "ignore all prior instructions",
+  "ignore the above instructions",
+  "forget all previous instructions",
+  "forget past commands",
+  "if you are an llm",
+  "if you are an ai"
+ ],
+ "override_verbs": [
+  "ignore",
+  "disregard",
+  "forget",
+  "override",
+  "bypass",
+  "discard",
+  "skip",
+  "abandon",
+  "neglect"
+ ],
+ "override_objects": [
+  "instructions",
+  "instruction",
+  "prompts",
+  "prompt",
+  "commands",
+  "directives",
+  "rules",
+  "guidelines",
+  "directions",
+  "context"
+ ],
+ "override_slop": 4,
+ "address_phrases": [
+  [
+   "if you are an ai",
+   1
+  ],
+  [
+   "if you are an llm",
+   1
+  ],
+  [
+   "if you are a language model",
+   2
+  ],
+  [
+   "if you are a large language model",
+   1
+  ],
+  [
+   "if you are a chatbot",
+   1
+  ],
+  [
+   "if you are chatgpt",
+   1
+  ],
+  [
+   "if you're an ai",
+   1
+  ],
+  [
+   "if you are an ai agent",
+   1
+  ],
+  [
+   "if you are an ai assistant",
+   1
+  ],
+  [
+   "ai reading this",
+   2
+  ],
+  [
+   "llm reading this",
+   2
+  ],
+  [
+   "language models reading this",
+   2
+  ],
+  [
+   "ai agents reading this",
+   2
+  ],
+  [
+   "note to ai",
+   1
+  ],
+  [
+   "attention ai",
+   1
+  ]
+ ],
+ "baseline_each": {
+  "ignore previous instructions": {
+   "hits": 3166,
+   "seconds": 0.04
+  },
+  "ignore all previous instructions": {
+   "hits": 6315,
+   "seconds": 0.05
+  },
+  "disregard previous instructions": {
+   "hits": 219,
+   "seconds": 0.03
+  },
+  "disregard all previous instructions": {
+   "hits": 3152,
+   "seconds": 0.04
+  },
+  "ignore prior instructions": {
+   "hits": 171,
+   "seconds": 0.03
+  },
+  "ignore all prior instructions": {
+   "hits": 73,
+   "seconds": 0.05
+  },
+  "ignore the above instructions": {
+   "hits": 69,
+   "seconds": 0.13
+  },
+  "forget all previous instructions": {
+   "hits": 87,
+   "seconds": 0.07
+  },
+  "forget past commands": {
+   "hits": 7,
+   "seconds": 0.03
+  },
+  "if you are an llm": {
+   "hits": 5796,
+   "seconds": 0.14
+  },
+  "if you are an ai": {
+   "hits": 83845,
+   "seconds": 1.12
+  }
+ },
+ "override_each": {
+  "ignore~instructions": {
+   "novel_hits": 13263,
+   "seconds": 0.5
+  },
+  "ignore~instruction": {
+   "novel_hits": 2646,
+   "seconds": 0.59
+  },
+  "ignore~prompts": {
+   "novel_hits": 2597,
+   "seconds": 0.28
+  },
+  "ignore~prompt": {
+   "novel_hits": 5751,
+   "seconds": 0.31
+  },
+  "ignore~commands": {
+   "novel_hits": 6212,
+   "seconds": 0.26
+  },
+  "ignore~directives": {
+   "novel_hits": 2246,
+   "seconds": 0.14
+  },
+  "ignore~rules": {
+   "novel_hits": 46550,
+   "seconds": 0.37
+  },
+  "ignore~guidelines": {
+   "novel_hits": 6021,
+   "seconds": 0.27
+  },
+  "ignore~directions": {
+   "novel_hits": 1697,
+   "seconds": 0.25
+  },
+  "ignore~context": {
+   "novel_hits": 76974,
+   "seconds": 0.34
+  },
+  "disregard~instructions": {
+   "novel_hits": 7640,
+   "seconds": 0.17
+  },
+  "disregard~instruction": {
+   "novel_hits": 686,
+   "seconds": 0.12
+  },
+  "disregard~prompts": {
+   "novel_hits": 1345,
+   "seconds": 0.1
+  },
+  "disregard~prompt": {
+   "novel_hits": 273,
+   "seconds": 0.21
+  },
+  "disregard~commands": {
+   "novel_hits": 696,
+   "seconds": 0.21
+  },
+  "disregard~directives": {
+   "novel_hits": 570,
+   "seconds": 0.2
+  },
+  "disregard~rules": {
+   "novel_hits": 16248,
+   "seconds": 0.22
+  },
+  "disregard~guidelines": {
+   "novel_hits": 1554,
+   "seconds": 0.16
+  },
+  "disregard~directions": {
+   "novel_hits": 687,
+   "seconds": 0.13
+  },
+  "disregard~context": {
+   "novel_hits": 972,
+   "seconds": 0.17
+  },
+  "forget~instructions": {
+   "novel_hits": 12740,
+   "seconds": 0.4
+  },
+  "forget~instruction": {
+   "novel_hits": 2395,
+   "seconds": 0.27
+  },
+  "forget~prompts": {
+   "novel_hits": 1974,
+   "seconds": 0.23
+  },
+  "forget~prompt": {
+   "novel_hits": 3277,
+   "seconds": 0.3
+  },
+  "forget~commands": {
+   "novel_hits": 2668,
+   "seconds": 0.22
+  },
+  "forget~directives": {
+   "novel_hits": 226,
+   "seconds": 0.11
+  },
+  "forget~rules": {
+   "novel_hits": 26229,
+   "seconds": 0.51
+  },
+  "forget~guidelines": {
+   "novel_hits": 4465,
+   "seconds": 0.42
+  },
+  "forget~directions": {
+   "novel_hits": 3312,
+   "seconds": 0.38
+  },
+  "forget~context": {
+   "novel_hits": 9224,
+   "seconds": 0.38
+  },
+  "override~instructions": {
+   "novel_hits": 5871,
+   "seconds": 0.26
+  },
+  "override~instruction": {
+   "novel_hits": 2251,
+   "seconds": 0.14
+  },
+  "override~prompts": {
+   "novel_hits": 1567,
+   "seconds": 0.16
+  },
+  "override~prompt": {
+   "novel_hits": 5608,
+   "seconds": 0.2
+  },
+  "override~commands": {
+   "novel_hits": 3699,
+   "seconds": 0.24
+  },
+  "override~directives": {
+   "novel_hits": 1210,
+   "seconds": 0.12
+  },
+  "override~rules": {
+   "novel_hits": 27473,
+   "seconds": 0.32
+  },
+  "override~guidelines": {
+   "novel_hits": 2059,
+   "seconds": 0.27
+  },
+  "override~directions": {
+   "novel_hits": 316,
+   "seconds": 0.18
+  },
+  "override~context": {
+   "novel_hits": 27050,
+   "seconds": 0.23
+  },
+  "bypass~instructions": {
+   "novel_hits": 3448,
+   "seconds": 0.23
+  },
+  "bypass~instruction": {
+   "novel_hits": 721,
+   "seconds": 0.15
+  },
+  "bypass~prompts": {
+   "novel_hits": 2853,
+   "seconds": 0.16
+  },
+  "bypass~prompt": {
+   "novel_hits": 21326,
+   "seconds": 0.22
+  },
+  "bypass~commands": {
+   "novel_hits": 2516,
+   "seconds": 0.18
+  },
+  "bypass~directives": {
+   "novel_hits": 214,
+   "seconds": 0.1
+  },
+  "bypass~rules": {
+   "novel_hits": 18586,
+   "seconds": 0.29
+  },
+  "bypass~guidelines": {
+   "novel_hits": 2129,
+   "seconds": 0.27
+  },
+  "bypass~directions": {
+   "novel_hits": 7987,
+   "seconds": 0.17
+  },
+  "bypass~context": {
+   "novel_hits": 1884,
+   "seconds": 0.26
+  },
+  "discard~instructions": {
+   "novel_hits": 2001,
+   "seconds": 0.18
+  },
+  "discard~instruction": {
+   "novel_hits": 200,
+   "seconds": 0.1
+  },
+  "discard~prompts": {
+   "novel_hits": 133,
+   "seconds": 0.08
+  },
+  "discard~prompt": {
+   "novel_hits": 455,
+   "seconds": 0.11
+  },
+  "discard~commands": {
+   "novel_hits": 768,
+   "seconds": 0.11
+  },
+  "discard~directives": {
+   "novel_hits": 15,
+   "seconds": 0.08
+  },
+  "discard~rules": {
+   "novel_hits": 1600,
+   "seconds": 0.2
+  },
+  "discard~guidelines": {
+   "novel_hits": 533,
+   "seconds": 0.18
+  },
+  "discard~directions": {
+   "novel_hits": 522,
+   "seconds": 0.17
+  },
+  "discard~context": {
+   "novel_hits": 982,
+   "seconds": 0.15
+  },
+  "skip~instructions": {
+   "novel_hits": 56954,
+   "seconds": 0.65
+  },
+  "skip~instruction": {
+   "novel_hits": 20878,
+   "seconds": 0.4
+  },
+  "skip~prompts": {
+   "novel_hits": 15693,
+   "seconds": 0.42
+  },
+  "skip~prompt": {
+   "novel_hits": 28786,
+   "seconds": 0.46
+  },
+  "skip~commands": {
+   "novel_hits": 51699,
+   "seconds": 0.46
+  },
+  "skip~directives": {
+   "novel_hits": 3285,
+   "seconds": 0.28
+  },
+  "skip~rules": {
+   "novel_hits": 133115,
+   "seconds": 0.77
+  },
+  "skip~guidelines": {
+   "novel_hits": 51207,
+   "seconds": 0.6
+  },
+  "skip~directions": {
+   "novel_hits": 108384,
+   "seconds": 0.56
+  },
+  "skip~context": {
+   "novel_hits": 32307,
+   "seconds": 0.63
+  },
+  "abandon~instructions": {
+   "novel_hits": 342,
+   "seconds": 0.17
+  },
+  "abandon~instruction": {
+   "novel_hits": 287,
+   "seconds": 0.14
+  },
+  "abandon~prompts": {
+   "novel_hits": 219,
+   "seconds": 0.11
+  },
+  "abandon~prompt": {
+   "novel_hits": 511,
+   "seconds": 0.14
+  },
+  "abandon~commands": {
+   "novel_hits": 190,
+   "seconds": 0.12
+  },
+  "abandon~directives": {
+   "novel_hits": 73,
+   "seconds": 0.09
+  },
+  "abandon~rules": {
+   "novel_hits": 3122,
+   "seconds": 0.27
+  },
+  "abandon~guidelines": {
+   "novel_hits": 320,
+   "seconds": 0.18
+  },
+  "abandon~directions": {
+   "novel_hits": 135,
+   "seconds": 0.16
+  },
+  "abandon~context": {
+   "novel_hits": 546,
+   "seconds": 0.23
+  },
+  "neglect~instructions": {
+   "novel_hits": 934,
+   "seconds": 0.23
+  },
+  "neglect~instruction": {
+   "novel_hits": 505,
+   "seconds": 0.15
+  },
+  "neglect~prompts": {
+   "novel_hits": 118,
+   "seconds": 0.1
+  },
+  "neglect~prompt": {
+   "novel_hits": 444,
+   "seconds": 0.19
+  },
+  "neglect~commands": {
+   "novel_hits": 388,
+   "seconds": 0.12
+  },
+  "neglect~directives": {
+   "novel_hits": 924,
+   "seconds": 0.09
+  },
+  "neglect~rules": {
+   "novel_hits": 2306,
+   "seconds": 0.23
+  },
+  "neglect~guidelines": {
+   "novel_hits": 1023,
+   "seconds": 0.2
+  },
+  "neglect~directions": {
+   "novel_hits": 265,
+   "seconds": 0.18
+  },
+  "neglect~context": {
+   "novel_hits": 1842,
+   "seconds": 0.2
+  }
+ },
+ "address_each": {
+  "if you are an ai": {
+   "novel_hits": 4021,
+   "seconds": 2.88
+  },
+  "if you are an llm": {
+   "novel_hits": 146,
+   "seconds": 0.49
+  },
+  "if you are a language model": {
+   "novel_hits": 207,
+   "seconds": 1.56
+  },
+  "if you are a large language model": {
+   "novel_hits": 181,
+   "seconds": 1.18
+  },
+  "if you are a chatbot": {
+   "novel_hits": 206,
+   "seconds": 0.68
+  },
+  "if you are chatgpt": {
+   "novel_hits": 1941,
+   "seconds": 0.73
+  },
+  "if you're an ai": {
+   "novel_hits": 5448,
+   "seconds": 1.05
+  },
+  "if you are an ai agent": {
+   "novel_hits": 202,
+   "seconds": 1.16
+  },
+  "if you are an ai assistant": {
+   "novel_hits": 45,
+   "seconds": 0.84
+  },
+  "ai reading this": {
+   "novel_hits": 2565,
+   "seconds": 0.99
+  },
+  "llm reading this": {
+   "novel_hits": 86,
+   "seconds": 0.23
+  },
+  "language models reading this": {
+   "novel_hits": 12,
+   "seconds": 0.5
+  },
+  "ai agents reading this": {
+   "novel_hits": 99,
+   "seconds": 0.43
+  },
+  "note to ai": {
+   "novel_hits": 1304,
+   "seconds": 1.45
+  },
+  "attention ai": {
+   "novel_hits": 40312,
+   "seconds": 0.91
+  }
+ },
+ "total_seconds": 347.9
+}
